@@ -1,4 +1,49 @@
-
+{
+    "recipes": [
+      {
+        "id": 1,
+        "name": "",
+        "description": "",
+        "ingredients": "",
+        "time": ""
+      },
+      {
+        "id": 2,
+        "name": "",
+        "description": "",
+        "ingredients": "",
+        "time": ""
+      },
+      {
+        "id": 3,
+        "name": "",
+        "description": "",
+        "ingredients": "",
+        "time": ""
+      },
+      {
+        "id": 4,
+        "name": "",
+        "description": "",
+        "ingredients": "",
+        "time": ""
+      },
+      {
+        "id": 5,
+        "name": "",
+        "description": "",
+        "ingredients": "",
+        "time": ""
+      },
+      {
+        "id": 6,
+        "name": "",
+        "description": "",
+        "ingredients": "",
+        "time": ""
+      }
+    ]
+  }
 
 
 
