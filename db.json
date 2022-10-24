@@ -2,45 +2,45 @@
     "recipes": [
       {
         "id": 1,
-        "name": "",
-        "description": "",
-        "ingredients": "",
-        "time": ""
+        "name": "Chicken Parmesan",
+        "description": "Chicken parm is fried chicken cheese and tomato sauce.",
+        "ingredients": "Chicken, Cheese, Marinara, Eggs, Flour, Olive Oil",
+        "time": 60
       },
       {
         "id": 2,
-        "name": "",
-        "description": "",
-        "ingredients": "",
-        "time": ""
+        "name": "Shrimp Scampi",
+        "description": "Shrimp scampi is pasta covered in a garlic wine sauce with grilled shrimp.",
+        "ingredients": "Shrimp, Pasta, White Wine, Garlic, Olive Oil, Italian Seasoning",
+        "time": 30
       },
       {
         "id": 3,
-        "name": "",
-        "description": "",
-        "ingredients": "",
-        "time": ""
+        "name": "Spaghetti and Meat Balls",
+        "description": "Spaghetti with marinara sauce and meatballs cooked in the sauce.",
+        "ingredients": "Pasta, Ground Beef, Ground Pork, Breadcrumbs, Eggs, Marinara Sauce, Cheese",
+        "time": 45
       },
       {
         "id": 4,
-        "name": "",
-        "description": "",
-        "ingredients": "",
-        "time": ""
+        "name": "Lasagna",
+        "description": "Layers of pasta filled with cheese and sauce.",
+        "ingredients": "Lasagna Pasta Sheets, Marinara, Mozzarella, Ricotta",
+        "time": 90
       },
       {
         "id": 5,
-        "name": "",
-        "description": "",
-        "ingredients": "",
-        "time": ""
+        "name": "Tiramisu",
+        "description": "Coffee flavored cake with mascarpone cream and dusted with cocoa powder",
+        "ingredients": "Espresso, Lady Fingers, Mascarpone, Cocoa Powder, Eggs, Sugar",
+        "time": 30
       },
       {
         "id": 6,
-        "name": "",
-        "description": "",
-        "ingredients": "",
-        "time": ""
+        "name": "Cannoli",
+        "description": "Baked crispy shell stuffed with sweet cream and dusted with powdered sugar",
+        "ingredients": "Pre Baked Cannoli Shells, Ricotta, Sugar, Chocolate Chips, Eggs",
+        "time": 45
       }
     ]
   }

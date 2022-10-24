@@ -1,7 +1,15 @@
 import React from "react";
+import RecipeContainer from "./RecipeContainer"
 
 function App() {
-  return <h1>Hello World</h1>
+  return (
+    <div>
+        <div>
+          <h2>Recipe Creator</h2>
+        </div>
+        <RecipeContainer/>
+    </div>
+  )
   
 }
 
