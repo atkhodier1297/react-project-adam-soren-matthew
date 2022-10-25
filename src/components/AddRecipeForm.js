@@ -8,6 +8,7 @@ function AddRecipeForm() {
                 <input type="text" name="name" placeholder='Add Recipe Name'></input>
                 <input type="text" name="description" placeholder='Add Recipe Description'></input>
                 <input type="text" name="ingredients" placeholder='Add Recipe Ingredients'></input>
+                <input type="text" name="url" placeholder='Add Recipe Image'></input>
                 <input type="number" name="time" placeholder='Add Cook Time'></input>
             </div>
             <button className='ui button' type='submit'>Add Recipe</button>

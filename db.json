@@ -5,42 +5,49 @@
         "name": "Chicken Parmesan",
         "description": "Chicken parm is fried chicken cheese and tomato sauce.",
         "ingredients": "Chicken, Cheese, Marinara, Eggs, Flour, Olive Oil",
-        "time": 60
+        "time": 60,
+        "url": ""
       },
       {
         "id": 2,
         "name": "Shrimp Scampi",
         "description": "Shrimp scampi is pasta covered in a garlic wine sauce with grilled shrimp.",
         "ingredients": "Shrimp, Pasta, White Wine, Garlic, Olive Oil, Italian Seasoning",
-        "time": 30
+        "time": 30,
+        "url": ""
       },
       {
         "id": 3,
         "name": "Spaghetti and Meat Balls",
         "description": "Spaghetti with marinara sauce and meatballs cooked in the sauce.",
         "ingredients": "Pasta, Ground Beef, Ground Pork, Breadcrumbs, Eggs, Marinara Sauce, Cheese",
-        "time": 45
+        "time": 45,
+        "url": ""
       },
       {
         "id": 4,
         "name": "Lasagna",
         "description": "Layers of pasta filled with cheese and sauce.",
         "ingredients": "Lasagna Pasta Sheets, Marinara, Mozzarella, Ricotta",
-        "time": 90
+        "time": 90,
+        "url": ""
       },
       {
         "id": 5,
         "name": "Tiramisu",
         "description": "Coffee flavored cake with mascarpone cream and dusted with cocoa powder",
         "ingredients": "Espresso, Lady Fingers, Mascarpone, Cocoa Powder, Eggs, Sugar",
-        "time": 30
+        "time": 30,
+        "url": ""
+
       },
       {
         "id": 6,
         "name": "Cannoli",
         "description": "Baked crispy shell stuffed with sweet cream and dusted with powdered sugar",
         "ingredients": "Pre Baked Cannoli Shells, Ricotta, Sugar, Chocolate Chips, Eggs",
-        "time": 45
+        "time": 45,
+        "url": ""
       }
     ]
   }
