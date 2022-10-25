@@ -9,7 +9,7 @@ function Recipe({recipe}) {
     <img src={url} alt={name}/>
     <p>{description}</p>
     <p>{ingredients}</p>
-    <p>{time}</p>
+    <p>{time} Minutes To Cook</p>
 
   </div>
 </div>
