@@ -1,14 +1,19 @@
 import React from "react";
-import RecipeContainer from "./RecipeContainer"
+import { Route, Routes, Link } from "react-router-dom";
+import RecipeContainer from "./RecipeContainer";
 
 function App() {
   return (
-    <div>
-        <div>
-          <h2>Recipe Creator</h2>
-        </div>
-        <RecipeContainer/>
-    </div>
+    <>
+    <nav>
+      <ul>
+        <li><Link to="/">Home</Link></li>
+      </ul>
+    </nav>
+    <Routes>
+      <Route path="/" element={<RecipeContainer/>} />
+    </Routes>
+    </>
   )
   
 }

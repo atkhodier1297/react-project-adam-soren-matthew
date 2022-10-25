@@ -12,6 +12,7 @@ function AddRecipeForm() {
                 <input type="number" name="time" placeholder='Add Cook Time'></input>
             </div>
             <button className='ui button' type='submit'>Add Recipe</button>
+            <button className='ui button two' type='submit'>Edit Recipe</button>
         </form>
     </div>
   )

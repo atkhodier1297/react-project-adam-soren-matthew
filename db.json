@@ -6,7 +6,7 @@
         "description": "Chicken parm is fried chicken cheese and tomato sauce.",
         "ingredients": "Chicken, Cheese, Marinara, Eggs, Flour, Olive Oil",
         "time": 60,
-        "url": ""
+        "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9292439.jpg&q=60&c=sc&orient=true&poi=auto&h=512"
       },
       {
         "id": 2,
@@ -14,7 +14,7 @@
         "description": "Shrimp scampi is pasta covered in a garlic wine sauce with grilled shrimp.",
         "ingredients": "Shrimp, Pasta, White Wine, Garlic, Olive Oil, Italian Seasoning",
         "time": 30,
-        "url": ""
+        "url": "https://www.allrecipes.com/thmb/FXDx9fOsIuqHglflRQdpX4ChzvQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/2606852-b0c4ceabe4644dbe881d0f8a4a8e5216.jpg"
       },
       {
         "id": 3,
@@ -22,7 +22,7 @@
         "description": "Spaghetti with marinara sauce and meatballs cooked in the sauce.",
         "ingredients": "Pasta, Ground Beef, Ground Pork, Breadcrumbs, Eggs, Marinara Sauce, Cheese",
         "time": 45,
-        "url": ""
+        "url": "https://www.allrecipes.com/thmb/Qpom2cn-nzkILbhKPgJsyoH9Ig4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/265083-de73495c238043cbb08e5b4710a6493e.jpg"
       },
       {
         "id": 4,
@@ -30,7 +30,7 @@
         "description": "Layers of pasta filled with cheese and sauce.",
         "ingredients": "Lasagna Pasta Sheets, Marinara, Mozzarella, Ricotta",
         "time": 90,
-        "url": ""
+        "url": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets.meredithcorp.io%2F88a62c414fbb2c750efe1ed2982a7a3e%2F1648997853homemade-lasagna%2520.jpg&q=60&c=sc&orient=true&poi=auto&h=512"
       },
       {
         "id": 5,
@@ -38,7 +38,7 @@
         "description": "Coffee flavored cake with mascarpone cream and dusted with cocoa powder",
         "ingredients": "Espresso, Lady Fingers, Mascarpone, Cocoa Powder, Eggs, Sugar",
         "time": 30,
-        "url": ""
+        "url": "https://www.allrecipes.com/thmb/qWCvuTxiT_x4dk4mMQw6YY-aeEc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/21412-tiramisu-ii-3x2-119-dc2ec77a0d39410195161a3ff98ca000.jpg"
 
       },
       {
@@ -47,7 +47,7 @@
         "description": "Baked crispy shell stuffed with sweet cream and dusted with powdered sugar",
         "ingredients": "Pre Baked Cannoli Shells, Ricotta, Sugar, Chocolate Chips, Eggs",
         "time": 45,
-        "url": ""
+        "url": "https://www.allrecipes.com/thmb/h0zYBRmsRmEbU_T0-9Kh7y_a8mQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Cannoli-by-Allrecipes-7e080f26f999437783c6460b03f73533.png"
       }
     ]
   }
