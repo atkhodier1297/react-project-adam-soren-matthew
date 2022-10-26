@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-function AddRecipeForm({postedRecipe}) {
+function AddRecipeForm({postedRecipes}) {
 
     const [formData, setFormData] = useState({
       id: '',
@@ -33,7 +33,7 @@ function AddRecipeForm({postedRecipe}) {
             body: JSON.stringify(addedRecipe),
           })
           .then((r) => r.json())
-          .then(data => postedRecipe(data))
+          .then(data => postedRecipes(data))
           }
   
 
@@ -53,7 +53,6 @@ function AddRecipeForm({postedRecipe}) {
                 value={formData.time} onChange={handleChange}></input>
             </div>
             <button className='ui recipe button' type='submit'>Add Recipe</button>
-            <button className='ui edit button' type='submit'>Edit Recipe</button>
         </form>
     </div>
   )

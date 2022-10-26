@@ -13,10 +13,15 @@ function RecipeContainer() {
         
     },[])
     //console.log(recipes)
+
+    function removeRecipe(id){
+        const newRecipes = recipes.filter((recipe) => recipe.id !==id)
+        setRecipes(newRecipes)
+      }
     
     return (
         <div>
-            <RecipeList recipes={recipes}/>
+            <RecipeList recipes={recipes} removeRecipe={removeRecipe}/>
         </div>
     )
 
