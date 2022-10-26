@@ -36,7 +36,7 @@ useEffect(()=>{
       </ul>
     </nav>
     <Routes>
-      <Route path="/Home" element={<RecipeContainer recipes={recipes}removeRecipe={removeRecipe}/>}/>
+      <Route path="/Home" element={<RecipeContainer recipes={recipes} removeRecipe={removeRecipe}/>}/>
       <Route path="/Search" element={<Search/>}/>
       <Route path="/Change" element={<AddRecipeForm postedRecipes={postedRecipes}/>}/>
     </Routes>
