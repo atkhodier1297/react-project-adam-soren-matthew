@@ -12,7 +12,7 @@ function RecipeContainer() {
         .then(data => setRecipes(data))
         
     },[])
-    console.log(recipes)
+    //console.log(recipes)
     
     return (
         <div>

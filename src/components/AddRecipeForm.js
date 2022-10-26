@@ -3,6 +3,7 @@ import React, {useState} from 'react'
 function AddRecipeForm({postedRecipe}) {
 
     const [formData, setFormData] = useState({
+      id: '',
       name: '',
       description: '',
       ingredients: '',
@@ -10,7 +11,7 @@ function AddRecipeForm({postedRecipe}) {
       url: '',
     })
 
-    console.log(formData)
+    //console.log(formData)
 
       function handleChange(e){
         const {name, value} = e.target
@@ -51,8 +52,8 @@ function AddRecipeForm({postedRecipe}) {
                 <input type="number" name="time" placeholder='Add Cook Time'
                 value={formData.time} onChange={handleChange}></input>
             </div>
-            <button className='ui button' type='submit'>Add Recipe</button>
-            <button className='ui button two' type='submit'>Edit Recipe</button>
+            <button className='ui recipe button' type='submit'>Add Recipe</button>
+            <button className='ui edit button' type='submit'>Edit Recipe</button>
         </form>
     </div>
   )

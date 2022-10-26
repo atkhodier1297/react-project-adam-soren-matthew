@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Route, Routes, Link } from "react-router-dom";
 import RecipeContainer from "./RecipeContainer";
 import Search from "./Search";
@@ -6,11 +6,12 @@ import AddRecipeForm from "./AddRecipeForm";
 
 
 function App() {
-  
-  function postedRecipe(addedRecipe){
-    setTrans([...recipe, addedRecipe])
-  }
 
+const [recipe, setRecipe] = useState([])
+
+  function postedRecipe(addedRecipe){
+    setRecipe([...recipe, addedRecipe])
+  }
 
   return (
     <>
