@@ -1,13 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Route, Routes, Link } from "react-router-dom";
 import RecipeContainer from "./RecipeContainer";
 import Search from "./Search";
 import AddRecipeForm from "./AddRecipeForm";
 
+const API = "http://localhost:8001/recipes"
 
 function App() {
 
 const [recipes, setRecipes] = useState([])
+
+useEffect(()=>{
+  fetch(API)
+  .then(response => response.json())
+  .then(data => setRecipes(data))
+  
+},[])
 
   function postedRecipes(addedRecipes){
     setRecipes([...recipes, addedRecipes])
@@ -28,7 +36,7 @@ const [recipes, setRecipes] = useState([])
       </ul>
     </nav>
     <Routes>
-      <Route path="/Home" element={<RecipeContainer removeRecipe={removeRecipe}/>}/>
+      <Route path="/Home" element={<RecipeContainer recipes={recipes}removeRecipe={removeRecipe}/>}/>
       <Route path="/Search" element={<Search/>}/>
       <Route path="/Change" element={<AddRecipeForm postedRecipes={postedRecipes}/>}/>
     </Routes>

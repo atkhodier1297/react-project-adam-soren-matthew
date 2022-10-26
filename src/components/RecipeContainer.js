@@ -1,22 +1,24 @@
 import React from "react";
 import RecipeList from "./RecipeList";
-import {useState, useEffect} from "react"
+// import {useState, useEffect} from "react"
 
-const API = "http://localhost:8001/recipes"
-function RecipeContainer() {
-    const [recipes, setRecipes] = useState([])
+
+function RecipeContainer({recipes, setRecipes, removeRecipe}) {
+    // const [recipes, setRecipes] = useState([])
     
-    useEffect(()=>{
-        fetch(API)
-        .then(response => response.json())
-        .then(data => setRecipes(data))
-        
-    },[])
-    //console.log(recipes)
+    
+    
+    function handleDelete(id){
+        fetch(`http://localhost:8001/recipes/${id}`, {
+          method: "DELETE"
+      })
+      
+      .then(()=>removeRecipe(id))
+      }
 
     return (
         <div>
-            <RecipeList recipes={recipes} setRecipes={setRecipes}/>
+            <RecipeList recipes={recipes} setRecipes={setRecipes} handleDelete={handleDelete}/>
         </div>
     )
 

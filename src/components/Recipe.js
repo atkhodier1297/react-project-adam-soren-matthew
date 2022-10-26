@@ -1,16 +1,10 @@
 import React from 'react'
 
-function Recipe({recipe, removeRecipe}) {
+function Recipe({recipe, handleDelete}) {
 
-    const {id, name, url, description, ingredients, time} = recipe
+    const { id, name, url, description, ingredients, time} = recipe
 
-    function handleDelete(){
-      fetch(`http://localhost:8001/recipes/${id}`, {
-        method: "DELETE"
-    })
-    
-    .then(()=>removeRecipe(id))
-    }
+ 
 
   return (
     <div class="card">
@@ -20,7 +14,7 @@ function Recipe({recipe, removeRecipe}) {
     <p>{description}</p>
     <p>{ingredients}</p>
     <p>{time} Minutes To Cook</p>
-    <button onClick={handleDelete}>Delete</button>
+    <button onClick={() => handleDelete(id)}>Delete</button>
   </div>
 </div>
   )
