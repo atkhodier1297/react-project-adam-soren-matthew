@@ -8,7 +8,8 @@ function Recipe({recipe, removeRecipe}) {
       fetch(`http://localhost:8001/recipes/${id}`, {
         method: "DELETE"
     })
-      removeRecipe(id)
+    
+    .then(()=>removeRecipe(id))
     }
 
   return (

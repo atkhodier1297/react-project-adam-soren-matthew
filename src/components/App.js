@@ -7,10 +7,15 @@ import AddRecipeForm from "./AddRecipeForm";
 
 function App() {
 
-const [recipe, setRecipe] = useState([])
+const [recipes, setRecipes] = useState([])
 
-  function postedRecipe(addedRecipe){
-    setRecipe([...recipe, addedRecipe])
+  function postedRecipes(addedRecipes){
+    setRecipes([...recipes, addedRecipes])
+  }
+
+  function removeRecipe(id){
+    const newRecipes = recipes.filter((recipe) => recipe.id !==id)
+    setRecipes(newRecipes)
   }
 
   return (
@@ -23,9 +28,9 @@ const [recipe, setRecipe] = useState([])
       </ul>
     </nav>
     <Routes>
-      <Route path="/Home" element={<RecipeContainer/>}/>
+      <Route path="/Home" element={<RecipeContainer removeRecipe={removeRecipe}/>}/>
       <Route path="/Search" element={<Search/>}/>
-      <Route path="/Change" element={<AddRecipeForm postedRecipe={postedRecipe}/>}/>
+      <Route path="/Change" element={<AddRecipeForm postedRecipes={postedRecipes}/>}/>
     </Routes>
     </>
   )

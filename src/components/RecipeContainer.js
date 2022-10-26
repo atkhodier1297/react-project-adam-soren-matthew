@@ -5,7 +5,7 @@ import {useState, useEffect} from "react"
 const API = "http://localhost:8001/recipes"
 function RecipeContainer() {
     const [recipes, setRecipes] = useState([])
-
+    
     useEffect(()=>{
         fetch(API)
         .then(response => response.json())
@@ -14,14 +14,9 @@ function RecipeContainer() {
     },[])
     //console.log(recipes)
 
-    function removeRecipe(id){
-        const newRecipes = recipes.filter((recipe) => recipe.id !==id)
-        setRecipes(newRecipes)
-      }
-    
     return (
         <div>
-            <RecipeList recipes={recipes} removeRecipe={removeRecipe}/>
+            <RecipeList recipes={recipes} setRecipes={setRecipes}/>
         </div>
     )
 
