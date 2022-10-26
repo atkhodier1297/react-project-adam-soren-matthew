@@ -31,6 +31,9 @@ useEffect(()=>{
     setSearch(e.target.value)
   }
 
+  const filteredRecipes = recipes.filter((recipe) =>
+  recipe.name.toLowerCase().includes(search.toLowerCase())
+  )
   return (
     <>
     <nav>
@@ -41,7 +44,7 @@ useEffect(()=>{
       </ul>
     </nav>
     <Routes>
-      <Route path="/Home" element={<RecipeContainer recipes={recipes} removeRecipe={removeRecipe}/>}/>
+      <Route path="/Home" element={<RecipeContainer recipes={filteredRecipes} removeRecipe={removeRecipe}/>}/>
       <Route path="/Search" element={<Search handleSearch={handleSearch} search={search}/>}/>
       <Route path="/Change" element={<AddRecipeForm postedRecipes={postedRecipes}/>}/>
     </Routes>
