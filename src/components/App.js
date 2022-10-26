@@ -9,6 +9,7 @@ const API = "http://localhost:8001/recipes"
 function App() {
 
 const [recipes, setRecipes] = useState([])
+const [search, setSearch] = useState('')
 
 useEffect(()=>{
   fetch(API)
@@ -26,6 +27,10 @@ useEffect(()=>{
     setRecipes(newRecipes)
   }
 
+  function handleSearch(e) {
+    setSearch(e.target.value)
+  }
+
   return (
     <>
     <nav>
@@ -37,7 +42,7 @@ useEffect(()=>{
     </nav>
     <Routes>
       <Route path="/Home" element={<RecipeContainer recipes={recipes} removeRecipe={removeRecipe}/>}/>
-      <Route path="/Search" element={<Search/>}/>
+      <Route path="/Search" element={<Search handleSearch={handleSearch} search={search}/>}/>
       <Route path="/Change" element={<AddRecipeForm postedRecipes={postedRecipes}/>}/>
     </Routes>
     </>

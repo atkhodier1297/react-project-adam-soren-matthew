@@ -1,12 +1,7 @@
 import React from "react";
 import RecipeList from "./RecipeList";
-// import {useState, useEffect} from "react"
-
 
 function RecipeContainer({recipes, setRecipes, removeRecipe}) {
-    // const [recipes, setRecipes] = useState([])
-    
-    
     
     function handleDelete(id){
         fetch(`http://localhost:8001/recipes/${id}`, {
