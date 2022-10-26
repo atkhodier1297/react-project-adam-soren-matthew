@@ -37,8 +37,8 @@ function AddRecipeForm({postedRecipe}) {
   
 
   return (
-    <div className='recipe form' onSubmit={handleSubmit}>
-        <form className='ui form'>
+    <div className='recipe form'>
+        <form className='ui form' onSubmit={handleSubmit}>
             <div className='inline fields'>
                 <input type="text" name="name" placeholder='Add Recipe Name'
                 value={formData.name} onChange={handleChange}></input>
