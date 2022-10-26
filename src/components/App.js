@@ -5,9 +5,13 @@ import Search from "./Search";
 import AddRecipeForm from "./AddRecipeForm";
 
 
-
 function App() {
   
+  function postedRecipe(addedRecipe){
+    setTrans([...recipe, addedRecipe])
+  }
+
+
   return (
     <>
     <nav>
@@ -20,7 +24,7 @@ function App() {
     <Routes>
       <Route path="/Home" element={<RecipeContainer/>}/>
       <Route path="/Search" element={<Search/>}/>
-      <Route path="/Change" element={<AddRecipeForm/>}/>
+      <Route path="/Change" element={<AddRecipeForm postedRecipe={postedRecipe}/>}/>
     </Routes>
     </>
   )

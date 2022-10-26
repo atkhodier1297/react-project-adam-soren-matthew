@@ -2,11 +2,10 @@ import React from "react";
 import RecipeList from "./RecipeList";
 import {useState, useEffect} from "react"
 
-
-
 const API = "http://localhost:8001/recipes"
 function RecipeContainer() {
     const [recipes, setRecipes] = useState([])
+
     useEffect(()=>{
         fetch(API)
         .then(response => response.json())
@@ -14,7 +13,7 @@ function RecipeContainer() {
         
     },[])
     console.log(recipes)
-
+    
     return (
         <div>
             <RecipeList recipes={recipes}/>

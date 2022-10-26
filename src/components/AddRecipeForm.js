@@ -1,15 +1,55 @@
-import React from 'react'
+import React, {useState} from 'react'
 
-function AddRecipeForm() {
+function AddRecipeForm({postedRecipe}) {
+
+    const [formData, setFormData] = useState({
+      name: '',
+      description: '',
+      ingredients: '',
+      time: '',
+      url: '',
+    })
+
+    console.log(formData)
+
+      function handleChange(e){
+        const {name, value} = e.target
+        setFormData({...formData, [name]: value})
+      }
+        function handleSubmit(){
+          const addedRecipe = {
+            name: formData.name,
+            description: formData.description,
+            ingredients: formData.ingredients,
+            time: formData.time,
+            url: formData.url
+          }
+          fetch('http://localhost:8001/recipes', {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(addedRecipe),
+          })
+          .then((r) => r.json())
+          .then(data => postedRecipe(data))
+          }
+  
+
   return (
-    <div className='ui segment'>
+    <div className='recipe form' onSubmit={handleSubmit}>
         <form className='ui form'>
             <div className='inline fields'>
-                <input type="text" name="name" placeholder='Add Recipe Name'></input>
-                <input type="text" name="description" placeholder='Add Recipe Description'></input>
-                <input type="text" name="ingredients" placeholder='Add Recipe Ingredients'></input>
-                <input type="text" name="url" placeholder='Add Recipe Image'></input>
-                <input type="number" name="time" placeholder='Add Cook Time'></input>
+                <input type="text" name="name" placeholder='Add Recipe Name'
+                value={formData.name} onChange={handleChange}></input>
+                <input type="text" name="description" placeholder='Add Recipe Description'
+                value={formData.description} onChange={handleChange}></input>
+                <input type="text" name="ingredients" placeholder='Add Recipe Ingredients'
+                value={formData.ingredients} onChange={handleChange}></input>
+                <input type="text" name="url" placeholder='Add Recipe Image'
+                value={formData.url} onChange={handleChange}></input>
+                <input type="number" name="time" placeholder='Add Cook Time'
+                value={formData.time} onChange={handleChange}></input>
             </div>
             <button className='ui button' type='submit'>Add Recipe</button>
             <button className='ui button two' type='submit'>Edit Recipe</button>
