@@ -4,6 +4,7 @@ function Search({ search, handleSearch }) {
   return (
     <div className="search">
       <input
+      className="search input"
         type="text"
         placeholder="Search for recipes!"
         value={search}

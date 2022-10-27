@@ -2,16 +2,115 @@
     text-align: center;
     border: grey solid 1px;
     padding: 1rem;
-    width: 15rem;
-    height: 25rem;
+    width: 20rem;
+    height: 30rem;
     display: inline-grid;
     margin: 1rem 2rem;
-    box-shadow: 3px 4px #e04b52;
+    box-shadow: 3px 4px red;
+    font-family:'Courier New', Courier, monospace
   }
   
+  .card :hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+  }
+
   .image {
     float: center;
-    width:  100px;
-    height: 100px;
+    width:  300px;
+    height: 200px;
     object-fit: cover;
+  }
+
+  .delete {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer
+  }
+
+  .search {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    color: red;
+  }
+
+  .form {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    color: red;
+  }
+  
+  .add-recipe {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer
+  }
+
+  .name-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    color: red;
+  }
+
+  .description-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    color: red;
+  }
+  
+  .ingredients-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    color: red;
+  }
+
+  .url-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    color: red;
+  }
+
+  .time-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    color: red;
   }

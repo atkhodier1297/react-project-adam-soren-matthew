@@ -38,8 +38,9 @@ function AddRecipeForm({ postedRecipes }) {
   return (
     <div className="recipe form">
       <form className="ui form" onSubmit={handleSubmit}>
-        <div className="inline fields">
+        <div className="form">
           <input
+          className="name-input"
             type="text"
             name="name"
             placeholder="Add Recipe Name"
@@ -47,6 +48,7 @@ function AddRecipeForm({ postedRecipes }) {
             onChange={handleChange}
           ></input>
           <input
+          className="description-input"
             type="text"
             name="description"
             placeholder="Add Recipe Description"
@@ -54,6 +56,7 @@ function AddRecipeForm({ postedRecipes }) {
             onChange={handleChange}
           ></input>
           <input
+          className="ingredients-input"
             type="text"
             name="ingredients"
             placeholder="Add Recipe Ingredients"
@@ -61,13 +64,15 @@ function AddRecipeForm({ postedRecipes }) {
             onChange={handleChange}
           ></input>
           <input
+          className="url-input"
             type="text"
             name="url"
-            placeholder="Add Recipe Image"
+            placeholder="Add Image URL"
             value={formData.url}
             onChange={handleChange}
           ></input>
           <input
+          className="time-input"
             type="number"
             name="time"
             placeholder="Add Cook Time"
@@ -75,7 +80,7 @@ function AddRecipeForm({ postedRecipes }) {
             onChange={handleChange}
           ></input>
         </div>
-        <button className="ui recipe button" type="submit">
+        <button className="add-recipe" type="submit">
           Add Recipe
         </button>
       </form>
