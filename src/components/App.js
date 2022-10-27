@@ -38,11 +38,11 @@ useEffect(()=>{
   return (
     <>
     <nav>
-      <ul>
-        <li><Link to="/Welcome">Welcome</Link></li>
-        <li><Link to="/Recipes">Recipes</Link></li>
-        <li><Link to="/Search">Search</Link></li>
-        <li><Link to="/Change">Add and Edit</Link></li>
+      <ul className="links">
+        <li><Link to="/Welcome">Welcome Page</Link></li>
+        <li><Link to="/Recipes">Recipe List</Link></li>
+        <li><Link to="/Search">Search Recipes</Link></li>
+        <li><Link to="/Change">Add Recipes</Link></li>
       </ul>
     </nav>
     <Routes>
