@@ -9,3 +9,9 @@
     box-shadow: 3px 4px #e04b52;
   }
   
+  .image {
+    float: center;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+  }
