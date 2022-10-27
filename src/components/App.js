@@ -43,18 +43,18 @@ function App() {
             <Link to="/Welcome">Welcome Page</Link>
           </li>
           <li>
-            <Link to="/Recipes">Recipe List</Link>
+            <Link to="/Items">Menu Items</Link>
           </li>
           {/* <li><Link to="/Search">Search Recipes</Link></li> */}
           <li>
-            <Link to="/Change">Add Recipes</Link>
+            <Link to="/Add">Add Menu Items</Link>
           </li>
         </ul>
       </nav>
       <Routes>
         <Route path="/Welcome" element={<Welcome />} />
         <Route
-          path="/Recipes"
+          path="/Items"
           element={
             <RecipeContainer
               recipes={filteredRecipes}
@@ -66,7 +66,7 @@ function App() {
         />
         {/* <Route path="/Search" element={<Search handleSearch={handleSearch} search={search}/>}/> */}
         <Route
-          path="/Change"
+          path="/Add"
           element={<AddRecipeForm postedRecipes={postedRecipes} />}
         />
       </Routes>

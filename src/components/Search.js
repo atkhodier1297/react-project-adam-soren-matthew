@@ -6,7 +6,7 @@ function Search({ search, handleSearch }) {
       <input
       className="search input"
         type="text"
-        placeholder="Search for recipes!"
+        placeholder="Search for menu items!"
         value={search}
         onChange={handleSearch}
       ></input>

@@ -6,7 +6,7 @@ function AddRecipeForm({ postedRecipes }) {
     name: "",
     description: "",
     ingredients: "",
-    time: "",
+    price: "",
     url: "",
   });
 
@@ -20,7 +20,7 @@ function AddRecipeForm({ postedRecipes }) {
       name: formData.name,
       description: formData.description,
       ingredients: formData.ingredients,
-      time: formData.time,
+      price: formData.price,
       url: formData.url,
     };
     fetch("http://localhost:8001/recipes", {
@@ -42,7 +42,7 @@ function AddRecipeForm({ postedRecipes }) {
           className="name-input"
             type="text"
             name="name"
-            placeholder="Add Recipe Name"
+            placeholder="Add Menu Item Name"
             value={formData.name}
             onChange={handleChange}
           ></input>
@@ -50,7 +50,7 @@ function AddRecipeForm({ postedRecipes }) {
           className="description-input"
             type="text"
             name="description"
-            placeholder="Add Recipe Description"
+            placeholder="Add Menu Item Description"
             value={formData.description}
             onChange={handleChange}
           ></input>
@@ -58,7 +58,7 @@ function AddRecipeForm({ postedRecipes }) {
           className="ingredients-input"
             type="text"
             name="ingredients"
-            placeholder="Add Recipe Ingredients"
+            placeholder="Add Menu Item Ingredients"
             value={formData.ingredients}
             onChange={handleChange}
           ></input>
@@ -71,16 +71,16 @@ function AddRecipeForm({ postedRecipes }) {
             onChange={handleChange}
           ></input>
           <input
-          className="time-input"
+          className="price-input"
             type="number"
-            name="time"
+            name="price"
             placeholder="Add Menu Item Price"
-            value={formData.time}
+            value={formData.price}
             onChange={handleChange}
           ></input>
         </div>
-        <button className="add-recipe" type="submit">
-          Add Recipe
+        <button className="add-item" type="submit">
+          Add Item
         </button>
       </form>
     </div>
