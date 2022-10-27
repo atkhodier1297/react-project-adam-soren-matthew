@@ -1,7 +1,7 @@
 import React from "react";
 
 function Recipe({ recipe, handleDelete }) {
-  const { id, name, url, description, ingredients, time } = recipe;
+  const { id, name, url, description, ingredients, price } = recipe;
 
   return (
     <div className="card">
@@ -12,7 +12,7 @@ function Recipe({ recipe, handleDelete }) {
         <img className="image" src={url} alt={name}/>
         <p>{description}</p>
         <p>{ingredients}</p>
-        <p>{time} Minutes To Cook</p>
+        <p>${price}</p>
         <button className="delete" onClick={() => handleDelete(id)}>Delete</button>
       </div>
     </div>

@@ -16,8 +16,8 @@
 
   .image {
     float: center;
-    width:  300px;
-    height: 200px;
+    width:  290px;
+    height: 190px;
     object-fit: cover;
   }
 

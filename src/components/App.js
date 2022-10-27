@@ -37,6 +37,7 @@ function App() {
   return (
     <>
       <nav>
+        <h1>Restaurant Menu Maker</h1>
         <ul className="links">
           <li>
             <Link to="/Welcome">Welcome Page</Link>

@@ -10,7 +10,6 @@ function AddRecipeForm({ postedRecipes }) {
     url: "",
   });
 
-  //console.log(formData)
 
   function handleChange(e) {
     const { name, value } = e.target;
@@ -75,7 +74,7 @@ function AddRecipeForm({ postedRecipes }) {
           className="time-input"
             type="number"
             name="time"
-            placeholder="Add Cook Time"
+            placeholder="Add Menu Item Price"
             value={formData.time}
             onChange={handleChange}
           ></input>
