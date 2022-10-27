@@ -37,7 +37,7 @@ function Welcome() {
       <form action="https://github.com/matthew-lui">
         <input type="submit" value="Matthew's GitHub" />
       </form>
-      <form action="">
+      <form action="https://www.linkedin.com/in/Lui-MatthewM/">
         <input type="submit" value="Matthew's LinkedIn" />
       </form>
     </div>
