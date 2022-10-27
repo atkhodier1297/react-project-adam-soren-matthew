@@ -114,3 +114,80 @@
     border-radius: 4px;
     color: red;
   }
+
+  .adams-git {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer
+  }
+
+  .adams-linked {
+    background-color: red;
+    border: 5px;
+    border-color: black;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer
+  }
+
+  .sorens-git {
+    background-color: red;
+    border: 5px;
+    border-color: black;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer
+  }
+
+  .sorens-linked {
+    background-color: red;
+    border: 5px;
+    border-color: black;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer
+  }
+
+  .matts-git {
+    background-color: red;
+    border: 5px;
+    border-color: black;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer
+  }
+
+  .matts-linked {
+    background-color: red;
+    border: 5px;
+    border-color: black;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer
+  }
