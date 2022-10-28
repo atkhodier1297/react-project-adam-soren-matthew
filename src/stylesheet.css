@@ -30,7 +30,8 @@
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    cursor: pointer
+    cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
   }
 
   .search {
@@ -71,6 +72,7 @@
     display: inline-block;
     font-size: 20px;
     cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
   }
 
   .add-item :hover {
@@ -128,7 +130,7 @@
   }
 
   .adams-git {
-    background-color: red;
+    background-color: black;
     border: none;
     color: white;
     padding: 10px 30px;
@@ -136,11 +138,12 @@
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    cursor: pointer
+    cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
   }
 
   .adams-linked {
-    background-color: red;
+    background-color: rgb(10, 102, 194);
     border: 5px;
     border-color: black;
     color: white;
@@ -149,11 +152,12 @@
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    cursor: pointer
+    cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
   }
 
   .sorens-git {
-    background-color: red;
+    background-color: black;
     border: 5px;
     border-color: black;
     color: white;
@@ -162,11 +166,12 @@
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    cursor: pointer
+    cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
   }
 
   .sorens-linked {
-    background-color: red;
+    background-color: rgb(10, 102, 194);
     border: 5px;
     border-color: black;
     color: white;
@@ -175,11 +180,12 @@
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    cursor: pointer
+    cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
   }
 
   .matts-git {
-    background-color: red;
+    background-color: black;
     border: 5px;
     border-color: black;
     color: white;
@@ -188,11 +194,12 @@
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    cursor: pointer
+    cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
   }
 
   .matts-linked {
-    background-color: red;
+    background-color: rgb(10, 102, 194);
     border: 5px;
     border-color: black;
     color: white;
@@ -201,7 +208,8 @@
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    cursor: pointer
+    cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
   }
 
   .nav {
@@ -213,7 +221,7 @@
     border-radius: 4px;
     color: red;
     text-align: center;
-    font-size: larger;
+    font-size: x-large;
     font-family:'Courier New', Courier, monospace;
   }
 
@@ -234,3 +242,17 @@
     font-size: larger;
     font-family:'Courier New', Courier, monospace;
   }
+
+  .adam-pic {
+    padding-top: 10px;
+  }
+
+  .soren-pic {
+    padding-top: 10px;
+  }
+
+  .matt-pic {
+    padding-top: 10px;
+  }
+
+  

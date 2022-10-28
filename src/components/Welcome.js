@@ -8,6 +8,7 @@ function Welcome() {
         created by Adam Khodier, Soren Sonstein, and Matthew Lui.
       </p>
       <img
+        className="adam-pic"
         src="https://ca.slack-edge.com/T02MD9XTF-U040NP41CSZ-ef8b80c53d03-512"
         height={150}
         alt=""
@@ -19,6 +20,7 @@ function Welcome() {
         <input className="adams-linked" type="submit" value="Adam's LinkedIn" />
       </form>
       <img
+        className="soren-pic"
         src="https://ca.slack-edge.com/T02MD9XTF-U0412QNLKEV-35d483ca213d-512"
         height={150}
         alt=""
@@ -30,6 +32,7 @@ function Welcome() {
         <input className="sorens-linked" type="submit" value="Soren's LinkedIn" />
       </form>
       <img
+        className="matt-pic"
         src="https://ca.slack-edge.com/T02MD9XTF-U03J6R93QUF-6c16f9a86af2-512"
         height={150}
         alt=""
