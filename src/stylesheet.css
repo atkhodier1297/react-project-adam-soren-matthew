@@ -7,7 +7,7 @@
     display: inline-grid;
     margin: 1rem 2rem;
     box-shadow: 3px 4px red;
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
   }
   
   .card :hover {
@@ -43,6 +43,10 @@
     color: red;
   }
 
+  .search :hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+  }
+
   .form {
     width: 100%;
     padding: 12px 20px;
@@ -51,6 +55,10 @@
     border: 2px solid red;
     border-radius: 4px;
     color: red;
+  }
+
+  .form :hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
   }
   
   .add-item {
@@ -62,7 +70,11 @@
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    cursor: pointer
+    cursor: pointer;
+  }
+
+  .add-item :hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
   }
 
   .name-input {
@@ -190,4 +202,35 @@
     display: inline-block;
     font-size: 20px;
     cursor: pointer
+  }
+
+  .nav {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    color: red;
+    text-align: center;
+    font-size: larger;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  .links {
+    list-style-type: none;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  .welcome {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    color: red;
+    text-align: center;
+    font-size: larger;
+    font-family:'Courier New', Courier, monospace;
   }

@@ -2,7 +2,7 @@ import React from "react";
 
 function Welcome() {
   return (
-    <div>
+    <div className="welcome">
       <p>
         Welcome to our Recipe creator application! This web application was <br></br>
         created by Adam Khodier, Soren Sonstein, and Matthew Lui.

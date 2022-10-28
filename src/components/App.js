@@ -36,7 +36,7 @@ function App() {
 
   return (
     <>
-      <nav>
+      <nav className="nav">
         <h1>Restaurant Menu Maker</h1>
         <ul className="links">
           <li>
@@ -45,7 +45,6 @@ function App() {
           <li>
             <Link to="/Items">Menu Items</Link>
           </li>
-          {/* <li><Link to="/Search">Search Recipes</Link></li> */}
           <li>
             <Link to="/Add">Add Menu Items</Link>
           </li>
