@@ -10,7 +10,6 @@ function AddRecipeForm({ postedRecipes }) {
     url: "",
   });
 
-
   function handleChange(e) {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -39,7 +38,7 @@ function AddRecipeForm({ postedRecipes }) {
       <form className="ui form" onSubmit={handleSubmit}>
         <div className="form">
           <input
-          className="name-input"
+            className="name-input"
             type="text"
             name="name"
             placeholder="Add Menu Item Name"
@@ -47,7 +46,7 @@ function AddRecipeForm({ postedRecipes }) {
             onChange={handleChange}
           ></input>
           <input
-          className="description-input"
+            className="description-input"
             type="text"
             name="description"
             placeholder="Add Menu Item Description"
@@ -55,7 +54,7 @@ function AddRecipeForm({ postedRecipes }) {
             onChange={handleChange}
           ></input>
           <input
-          className="ingredients-input"
+            className="ingredients-input"
             type="text"
             name="ingredients"
             placeholder="Add Menu Item Ingredients"
@@ -63,7 +62,7 @@ function AddRecipeForm({ postedRecipes }) {
             onChange={handleChange}
           ></input>
           <input
-          className="url-input"
+            className="url-input"
             type="text"
             name="url"
             placeholder="Add Image URL"
@@ -71,7 +70,7 @@ function AddRecipeForm({ postedRecipes }) {
             onChange={handleChange}
           ></input>
           <input
-          className="price-input"
+            className="price-input"
             type="number"
             name="price"
             placeholder="Add Menu Item Price"
@@ -83,6 +82,11 @@ function AddRecipeForm({ postedRecipes }) {
           Add Item
         </button>
       </form>
+      <img
+        className="dish"
+        src="https://cdn0.iconfinder.com/data/icons/a-restaurant/500/SingleCartoonRestaurantAlice_3-512.png"
+        alt="dish"
+      />
     </div>
   );
 }

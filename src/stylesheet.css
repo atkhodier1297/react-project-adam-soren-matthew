@@ -5,7 +5,7 @@
     width: 20rem;
     height: 30rem;
     display: inline-grid;
-    margin: 1rem 2rem;
+    margin: 1rem 3.5rem;
     box-shadow: 3px 4px red;
     font-family:'Courier New', Courier, monospace;
     background-color: rgb(211,211,211);
@@ -42,7 +42,7 @@
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 2px solid red;
+    border: 4px solid red;
     border-radius: 4px;
     color: red;
     background-color: rgb(211,211,211);
@@ -58,7 +58,7 @@
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 2px solid red;
+    border: 4px solid red;
     border-radius: 4px;
     color: red;
     background-color: rgb(211,211,211);
@@ -91,7 +91,7 @@
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 2px solid red;
+    border: 4px solid red;
     border-radius: 4px;
     color: red;
   }
@@ -101,7 +101,7 @@
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 2px solid red;
+    border: 4px solid red;
     border-radius: 4px;
     color: red;
   }
@@ -111,7 +111,7 @@
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 2px solid red;
+    border: 4px solid red;
     border-radius: 4px;
     color: red;
   }
@@ -121,7 +121,7 @@
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 2px solid red;
+    border: 4px solid red;
     border-radius: 4px;
     color: red;
   }
@@ -131,7 +131,7 @@
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 2px solid red;
+    border: 4px solid red;
     border-radius: 4px;
     color: red;
   }
@@ -224,7 +224,7 @@
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 2px solid red;
+    border: 4px solid red;
     border-radius: 4px;
     color: red;
     text-align: center;
@@ -246,7 +246,7 @@
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 2px solid red;
+    border: 4px solid red;
     border-radius: 4px;
     color: red;
     text-align: center;
@@ -295,4 +295,10 @@
 
   body {
     background-color: rgb(211,211,211);
+  }
+
+  .dish {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   }
