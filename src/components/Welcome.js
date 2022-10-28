@@ -5,7 +5,10 @@ function Welcome() {
     <div className="welcome">
       <p>
         Welcome to our Recipe creator application! This web application was <br></br>
-        created by Adam Khodier, Soren Sonstein, and Matthew Lui.
+        created by Adam Khodier, Soren Sonstein, and Matthew Lui. The purpose of our <br></br>
+        web application is to allow restaurant owners to have a quick and easy <br></br>
+        way to create menu items that displays the menu items name, <br></br>
+        description, ingredients, image, and price!
       </p>
       <img
         className="adam-pic"

@@ -8,6 +8,9 @@
     margin: 1rem 2rem;
     box-shadow: 3px 4px red;
     font-family:'Courier New', Courier, monospace;
+    background-color: rgb(211,211,211);
+    font-weight: bold;
+    color: red;
   }
   
   .card :hover {
@@ -42,6 +45,8 @@
     border: 2px solid red;
     border-radius: 4px;
     color: red;
+    background-color: rgb(211,211,211);
+    font-weight: bold;
   }
 
   .search :hover {
@@ -56,6 +61,8 @@
     border: 2px solid red;
     border-radius: 4px;
     color: red;
+    background-color: rgb(211,211,211);
+    font-weight: bold;
   }
 
   .form :hover {
@@ -222,12 +229,16 @@
     color: red;
     text-align: center;
     font-size: x-large;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Courier New', Courier, monospace;;
+    background-color: rgb(211,211,211);
+    font-weight: bold;
   }
 
   .links {
     list-style-type: none;
     font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+    text-decoration: none;
   }
 
   .welcome {
@@ -241,6 +252,8 @@
     text-align: center;
     font-size: larger;
     font-family:'Courier New', Courier, monospace;
+    background-color: rgb(211,211,211);
+    font-weight: bold;
   }
 
   .adam-pic {
@@ -255,4 +268,27 @@
     padding-top: 10px;
   }
 
-  
+  .name-input {
+    background-color: rgb(211,211,211);
+    font-weight: bold;
+  }
+
+  .description-input {
+    background-color: rgb(211,211,211);
+    font-weight: bold;
+  }
+
+  .ingredients-input {
+    background-color: rgb(211,211,211);
+    font-weight: bold;
+  }
+
+  .url-input {
+    background-color: rgb(211,211,211);
+    font-weight: bold;
+  }
+
+  .price-input {
+    background-color: rgb(211,211,211);
+    font-weight: bold;
+  }
